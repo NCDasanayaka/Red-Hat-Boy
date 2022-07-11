@@ -1,0 +1,48 @@
+.body {
+    margin: 0px;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("resources/background.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.boy {
+    height: 300px;
+    margin-top: 605px;
+    margin-left: 230px;
+    position: absolute;
+}
+
+.scorebar {
+    margin-top: -30px;
+    margin-left: -30px;
+    position: absolute;
+    height: 200px;
+}
+
+.score {
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 90px;
+    font-weight: bold;
+    position: absolute;
+    color: rgb(1, 54, 66);
+}
+
+.box {
+    width: 80px;
+    height: 150px;
+    position: absolute;
+    background-image: url("resources/flame.gif");
+    background-size: contain;
+    margin-top: 760px;
+    margin-left: 1500px;
+    background-repeat: no-repeat;
+
+}
